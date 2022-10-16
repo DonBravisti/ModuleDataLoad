@@ -10,7 +10,7 @@ namespace ModuleDataLoad
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Hey");
         }
     }
 }
