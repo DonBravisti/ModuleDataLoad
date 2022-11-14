@@ -12,6 +12,7 @@ namespace ModuleDataLoad
         {
             Console.WriteLine("Hey");
             Console.WriteLine("hello");
+            Console.WriteLine("goodbye");
         }
     }
 }
