@@ -9,11 +9,21 @@ namespace ScheduleEditorClassLibrary
     public class FacultyGroups
     {
         public List<Group> Groups { get; set; }
+
+        public FacultyGroups(List<Group> groups)
+        {
+            Groups = groups;
+        }
     }
 
     public class Group
     {
-        public List<AcademicClass> classes { get; set; } // ScheduleAcademicClass
+        public List<AcademicClass> Classes { get; set; } // ScheduleAcademicClass
+
+        public Group(List<AcademicClass> classes)
+        {
+            Classes = classes;
+        }
     }
 
     public enum ClassType
@@ -74,5 +84,10 @@ namespace ScheduleEditorClassLibrary
     public class Teacher
     {
         public string Name { get; set; }
+
+        public Teacher(string name)
+        {
+            Name = name;
+        }
     }
 }
